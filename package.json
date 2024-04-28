@@ -1,0 +1,21 @@
+{
+  "name": "wordpress-proxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "http-proxy": "^1.18.1",
+    "pako": "^2.1.0",
+    "puppeteer": "^21.7.0"
+  },
+  "devDependencies": {
+    "@types/http-proxy": "^1.17.14",
+    "@types/pako": "^2.0.3"
+  }
+}
